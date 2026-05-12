@@ -2762,3 +2762,19 @@ Entries:
       message: Tajaran now get survival boxes too
   id: 346
   time: '2026-05-12T17:48:24.0000000+00:00'
+- author: Dunrab
+  changes:
+    - type: Add
+      message: >-
+        Security Technician is now available on Edge and Archivists now have
+        their locker.
+    - type: Add
+      message: >-
+        Medical now has a station records PC since they did not previously have
+        one.
+    - type: Tweak
+      message: >-
+        Tweaked the salvage docking arm so the logistics shuttle can dock much
+        easier.
+  id: 347
+  time: '2026-05-12T17:51:15.0000000+00:00'
