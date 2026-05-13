@@ -2778,3 +2778,9 @@ Entries:
         easier.
   id: 347
   time: '2026-05-12T17:51:15.0000000+00:00'
+- author: kivdon
+  changes:
+    - type: Add
+      message: 'Added traits for heat/cold tolerances/intolerances. '
+  id: 348
+  time: '2026-05-13T09:29:14.0000000+00:00'
