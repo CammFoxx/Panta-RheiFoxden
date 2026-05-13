@@ -2798,3 +2798,11 @@ Entries:
       message: Redesigned service quadborg. Horse mode UNLOCKED.
   id: 350
   time: '2026-05-13T09:38:39.0000000+00:00'
+- author: Dunrab
+  changes:
+    - type: Add
+      message: >-
+        The syndicate have gotten hold of cheese slice grenades and now have
+        them in stock in their uplinks.
+  id: 351
+  time: '2026-05-13T09:55:00.0000000+00:00'
