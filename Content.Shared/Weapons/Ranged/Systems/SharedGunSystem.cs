@@ -166,7 +166,7 @@ public abstract partial class SharedGunSystem : EntitySystem
 
         // Floofstation - this was added by... someone? TODO: figure out or revert
         if (msg.Continuous)
-            gun.ShotCounter = 0;
+            gun.Comp.ShotCounter = 0;
     }
 
     private void OnStopShootRequest(RequestStopShootEvent ev, EntitySessionEventArgs args)

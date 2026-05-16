@@ -299,9 +299,10 @@ public sealed class HealthAnalyzerSystem : EntitySystem
     /// Creates a HealthAnalyzerState based on the current state of an entity.
     /// </summary>
     /// <param name="target">The entity being scanned</param>
+    /// <param name="healthAnalyzer">Floofstation - health analyzer being used, if any. Do not neglect this.</param>
     /// <param name="part">Shitmed Change: The body part being scanned, if any</param>
     /// <returns></returns>
-    public HealthAnalyzerUiState GetHealthAnalyzerUiState(EntityUid? target, EntityUid? part = null)
+    public HealthAnalyzerUiState GetHealthAnalyzerUiState(EntityUid? target, EntityUid? healthAnalyzer, EntityUid? part = null)
     {
         if (!target.HasValue || !HasComp<DamageableComponent>(target))
             return new HealthAnalyzerUiState();
@@ -335,8 +336,6 @@ public sealed class HealthAnalyzerSystem : EntitySystem
 
         var printable = HasComp<HealthAnalyzerPrinterComponent>(healthAnalyzer); // Frontier
 
-        _uiSystem.ServerSendUiMessage(healthAnalyzer, HealthAnalyzerUiKey.Key, new HealthAnalyzerScannedUserMessage(
-            GetNetEntity(target),
         return new HealthAnalyzerUiState(
             GetNetEntity(entity),
             bodyTemperature,
@@ -350,7 +349,7 @@ public sealed class HealthAnalyzerSystem : EntitySystem
             _medicalRecords.GetMedicalRecords(entity), // DeltaV - Medical Records
             part != null ? GetNetEntity(part) : null,
 
-            printable, // Frontier
+            printable // Frontier
         );
     }
 }

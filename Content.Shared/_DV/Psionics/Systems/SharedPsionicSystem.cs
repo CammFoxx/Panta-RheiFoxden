@@ -1,5 +1,6 @@
 using Content.Shared._DV.Psionics.Components;
 using Content.Shared._DV.Psionics.Events;
+using Content.Shared.Bed.Cryostorage;
 using Content.Shared.Jittering;
 using Content.Shared.Popups;
 using Content.Shared.Psionics.Glimmer;
@@ -115,7 +116,7 @@ public abstract partial class SharedPsionicSystem : EntitySystem
 
         // Floofstation - don't allow shit to touch cryosleeping bodies. This is mostly to stop mass mindswap from swapping with mobs there.
         // Sometimes the cryostorage system fails to pause them correctly, so this hack is needed.
-        if (_cryoSystem.IsInPausedMap(psion))
+        if (_cryoSystem.IsInPausedMap(target))
             return false;
 
         return !ev.IsShielded;

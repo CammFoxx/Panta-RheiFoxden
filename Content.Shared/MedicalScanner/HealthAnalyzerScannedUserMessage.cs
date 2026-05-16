@@ -37,7 +37,7 @@ public struct HealthAnalyzerUiState
 
     public HealthAnalyzerUiState() {}
 
-    public HealthAnalyzerUiState(NetEntity? targetEntity, float temperature, float bloodLevel, bool? scanMode, bool? bleeding, bool? unrevivable, Dictionary<TargetBodyPart, TargetIntegrity>? body, MedicalRecord? medicalRecord = null, NetEntity? part = null, bool printable = false // Frontier) // Shitmed Change // DeltaV - Medical Records // Floof - printing port from frontier
+    public HealthAnalyzerUiState(NetEntity? targetEntity, float temperature, float bloodLevel, bool? scanMode, bool? bleeding, bool? unrevivable, Dictionary<TargetBodyPart, TargetIntegrity>? body, MedicalRecord? medicalRecord = null, NetEntity? part = null, bool printable = false) // Frontier) // Shitmed Change // DeltaV - Medical Records // Floof - printing port from frontier
     {
         TargetEntity = targetEntity;
         Temperature = temperature;
