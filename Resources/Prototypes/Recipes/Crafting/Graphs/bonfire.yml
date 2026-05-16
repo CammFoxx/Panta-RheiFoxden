@@ -8,18 +8,38 @@
     - to: bonfire
       steps:
       - material: WoodPlank
-        amount: 10
+        amount: 15 # Floof - increase for parity
         doAfter: 4
 
-  - node: bonfire
-    entity: Bonfire
+  # Floofstation - bonfire starts unlit
+  - node: unlit
+    entity: BonfireConstructionUnlit
     edges:
     - to: start
       completed:
       - !type:SpawnPrototype
         prototype: MaterialWoodPlank1
-        amount: 10
+        amount: 15 # Floof - see above
       - !type:DeleteEntity { }
+      steps:
+      - tool: Prying
+        doAfter: 4
+    - to: bonfire
+      steps:
+      - tool: Welding
+        doAfter: 4
+    # Floofsstation section end
+
+  - node: bonfire
+    entity: Bonfire
+    edges:
+    # Floofstation - edge to unlit, not to start
+    - to: unlit
+#      completed:
+#      - !type:SpawnPrototype
+#        prototype: MaterialWoodPlank1
+#        amount: 15 # Floof - see above
+#      - !type:DeleteEntity { }
       steps:
       - tool: Prying
         doAfter: 4
