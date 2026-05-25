@@ -3137,3 +3137,11 @@ Entries:
         better option if you want a calm shift.
   id: 392
   time: '2026-05-25T06:08:33.0000000+00:00'
+- author: Raikyr0
+  changes:
+    - type: Add
+      message: Added Medical Assembler Recipes for Hyperzine, Combat and Weh Pens.
+    - type: Fix
+      message: Fixed Airloss Auto-Injector using the wrong amount of chemicals.
+  id: 393
+  time: '2026-05-25T06:09:17.0000000+00:00'
