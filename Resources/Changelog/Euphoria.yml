@@ -3248,3 +3248,9 @@ Entries:
       message: A new blazer and skirt combo has been added!
   id: 407
   time: '2026-05-30T05:53:48.0000000+00:00'
+- author: SyaoranFox
+  changes:
+    - type: Tweak
+      message: 1/4 of unreadied players count as readied for secret round calculation.
+  id: 408
+  time: '2026-05-30T05:55:18.0000000+00:00'
