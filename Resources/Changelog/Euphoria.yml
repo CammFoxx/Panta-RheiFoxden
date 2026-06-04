@@ -3373,3 +3373,9 @@ Entries:
       message: Added an accent for rolling your 'r's.
   id: 423
   time: '2026-06-04T12:06:10.0000000+00:00'
+- author: JaDiDo
+  changes:
+    - type: Tweak
+      message: 'Rework of the VoreSystems consent '
+  id: 424
+  time: '2026-06-04T12:11:02.0000000+00:00'
