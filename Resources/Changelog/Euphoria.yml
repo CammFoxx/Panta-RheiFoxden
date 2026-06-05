@@ -3379,3 +3379,9 @@ Entries:
       message: 'Rework of the VoreSystems consent '
   id: 424
   time: '2026-06-04T12:11:02.0000000+00:00'
+- author: kivdon
+  changes:
+    - type: Tweak
+      message: We now allow Harpies to learn Tradeband.
+  id: 425
+  time: '2026-06-05T11:50:59.0000000+00:00'
