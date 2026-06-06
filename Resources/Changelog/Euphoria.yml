@@ -3393,3 +3393,9 @@ Entries:
         instead of green.
   id: 426
   time: '2026-06-05T13:26:01.0000000+00:00'
+- author: youtubepoopfuneral
+  changes:
+    - type: Tweak
+      message: lovelox ears marking now has actual ears
+  id: 427
+  time: '2026-06-06T06:04:47.0000000+00:00'
