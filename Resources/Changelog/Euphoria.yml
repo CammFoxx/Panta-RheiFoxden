@@ -3776,3 +3776,9 @@ Entries:
         basic lighter does. 
   id: 472
   time: '2026-06-20T23:42:04.0000000+00:00'
+- author: SyaoranFox
+  changes:
+    - type: Fix
+      message: Hotdogs can once again be made.
+  id: 473
+  time: '2026-06-21T03:13:19.0000000+00:00'
