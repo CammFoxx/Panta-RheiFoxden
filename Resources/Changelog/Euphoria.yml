@@ -3818,3 +3818,11 @@ Entries:
         recipe.
   id: 477
   time: '2026-06-22T09:12:36.0000000+00:00'
+- author: Dunrab
+  changes:
+    - type: Add
+      message: >-
+        Two new medals have been added to the medal case for command members to
+        give out as they see fit.
+  id: 478
+  time: '2026-06-22T09:14:20.0000000+00:00'
