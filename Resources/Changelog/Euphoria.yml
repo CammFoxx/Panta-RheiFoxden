@@ -3900,3 +3900,11 @@ Entries:
         Station.
   id: 485
   time: '2026-06-26T16:01:53.0000000+00:00'
+- author: ScarlettJFG
+  changes:
+    - type: Fix
+      message: >-
+        Nikko's Naughty Nectar has a flavor now! (Previously showed
+        "flavor-complex-nikkonectar", which is not a flavor)
+  id: 486
+  time: '2026-06-27T01:24:27.0000000+00:00'
