@@ -3908,3 +3908,9 @@ Entries:
         "flavor-complex-nikkonectar", which is not a flavor)
   id: 486
   time: '2026-06-27T01:24:27.0000000+00:00'
+- author: Eagle0600
+  changes:
+    - type: Remove
+      message: Removed MedTek software from salvage PDA collar.
+  id: 487
+  time: '2026-06-28T13:32:08.0000000+00:00'
