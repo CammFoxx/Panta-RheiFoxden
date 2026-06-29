@@ -3942,3 +3942,11 @@ Entries:
       message: 'Dorms Dresser Empty and Filled for mappnig. '
   id: 491
   time: '2026-06-29T02:51:12.0000000+00:00'
+- author: Eagle0600
+  changes:
+    - type: Fix
+      message: >-
+        Fixed numerous errors in the health analyser printouts. They now more
+        closely match the health analyser readout.
+  id: 492
+  time: '2026-06-29T02:57:31.0000000+00:00'
