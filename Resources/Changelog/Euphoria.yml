@@ -4066,3 +4066,9 @@ Entries:
       message: Two pet spiders are now available in loadouts.
   id: 507
   time: '2026-07-04T01:51:58.0000000+00:00'
+- author: Raikyr0
+  changes:
+    - type: Fix
+      message: Sec Viper starting with a extended mag was not intended.
+  id: 508
+  time: '2026-07-06T05:45:14.0000000+00:00'
