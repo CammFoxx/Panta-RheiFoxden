@@ -4188,3 +4188,9 @@ Entries:
       message: Slime hair colors are getting a little freaky now...
   id: 519
   time: '2026-07-10T07:21:59.0000000+00:00'
+- author: Raikyr0
+  changes:
+    - type: Add
+      message: Added Whimperlet as a pet.
+  id: 520
+  time: '2026-07-10T07:25:33.0000000+00:00'
